@@ -1,1 +1,16 @@
+{
+  "name": "Meu Ambiente Gráfico",
+ //"image": "://microsoft.com", ou sua imagem
+  
+  // Encaminhar porta 6080 automaticamente
+  "forwardPorts": [6080],
+  
+  // Opcional: Rotular a porta para facilitar a identificação
+  "portsAttributes": {
+    "6080": {
+      "label": "VNC/Grafico",
+      "onAutoForward": "openPreview"
+    }
+  }
+}
 
